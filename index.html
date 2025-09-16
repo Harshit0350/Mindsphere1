@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindsphere - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Mindsphere</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <button class="theme-toggle" id="theme-toggle">🌙 Dark</button>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Search and Filter Section -->
+        <div class="search-section">
+            <input type="text" id="search-bar" class="search-bar" placeholder="Search blog posts...">
+            <div class="category-filters" id="category-filters">
+                <!-- Category buttons will be dynamically generated -->
+            </div>
+        </div>
+
+        <!-- Blog Posts Grid -->
+        <div class="blog-grid" id="blog-grid">
+            <!-- Blog posts will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Harshit Chauhan | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/posts.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
