@@ -568,6 +568,12 @@ body {
         gap: 2rem;
     }
     
+    .author-photo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
     .author-image {
         width: 150px;
         height: 150px;
